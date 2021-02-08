@@ -15,8 +15,6 @@ var opp,pinkGroup,redgroup,yellowGroup;
 
 function preload(){
 
-  
-
   roadImg = loadImage("images/Road.png");
 
   playerImg1 = loadAnimation("images/mainplayer1.png", "images/mainplayer2.png");
@@ -35,7 +33,6 @@ function preload(){
 
  cycleBell = loadSound("sound/bell.mp3");
 
-  
 }
 
 function setup(){
@@ -147,11 +144,7 @@ function draw(){
       restart();
     }
 
-
   }
-
-
-}
 
 function pinkCyclists(){
 player1 = createSprite(1100,Math.round(random(50,250)));
