@@ -146,6 +146,7 @@ function draw(){
 
   }
 
+}
 function pinkCyclists(){
 player1 = createSprite(1100,Math.round(random(50,250)));
 player1.addAnimation("running",oppPinkImg1);
